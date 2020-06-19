@@ -315,6 +315,7 @@ tr:nth-child(even) {
 
 .edit {
 	transform: translateY(-10px);
+	cursor: pointer;
 }
 
 .point {
@@ -327,5 +328,25 @@ tr:nth-child(even) {
 }
 
 .point:hover {
-	background: #005D3B;
+	background: #c6ddd5;
+}
+
+.option {
+	background: #FFFFFF;
+	border: 0.7px solid #005D3B;
+	border-radius: 4px;
+	width: 150px;
+	height: 70px;
+	position: absolute;
+	top: 15%;
+	right: 3%;
+}
+
+.option ul {
+	padding: 5px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
